@@ -1,0 +1,135 @@
+.blue{
+  color: blue;
+}
+.violet{
+  color:violet;
+}
+.green{
+  color: green;
+}
+body{
+  background:#444;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#logoContainer{
+  max-width: 700px;
+  height: 2em;
+  margin: 0 auto 0 auto;
+}
+#messageContainer{
+  color: #444;
+  background:whitesmoke;
+  max-width: 280px;
+  text-align: center;
+}
+#container{
+  margin: 0 auto 0 auto;
+  max-width: 700px;
+}
+.logo{
+  float: left;
+  max-width: 700px;
+}
+.title{
+  max-width: 700px;
+  text-align: center;
+  clear:both;
+  margin-top:3em;
+}
+.post{
+  max-width: 700px;
+  min-height: 200px;
+  background: ghostwhite;
+  clear:both;
+  margin-bottom: 5em;
+  padding:2em 0 2em 0;
+}
+
+.postTitle{
+  margin-top:-.8em;
+  color: #444;
+  text-align:center;
+}
+#formContainer{
+  max-width:700px;
+  background: #444;
+  clear:both;
+  float:right;
+}
+#formContainer input, button{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  color:#444;
+  text-align:right;
+}
+.hide{
+  display: none;
+}
+.centerAlign{
+  text-align:center;
+}
+.codeContainer{
+  max-width:500px; 
+  margin:2em auto;
+}
+
+#addPost input{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: bold; 
+  margin:1em 0 1em 0;
+}
+#addPost button{
+  float:none;
+}
+button{
+  margin-bottom: 1em;
+  float: right;
+}
+button:hover{
+  cursor: pointer;
+}
+#signInSignUp{
+  text-decoration: underline;
+  text-align: right;
+}
+#signInSignUp:hover{
+  cursor: pointer;
+  text-decoration:none;
+}
+.canvasContainer{
+  max-width: 600px;
+  margin:0 auto;
+}
+.selectPencil{
+  float: left;
+  margin: 2em 0 .5em 0;
+  padding:0 2em .2em 2em;
+  color:#444;
+  border:1px solid #444;
+  border-radius:5px;
+}
+.selected{
+  background: #444;
+  color: whitesmoke;
+}
+.selectPencil:hover{
+  cursor:pointer;
+}
+#canvasHolder{
+  color: green;
+  font-size: 21px;
+}
+.note{
+  color:#444;
+  text-align:center;
+  font-size: 19px;
+}
+.author{
+  color:#444;
+  text-align:center;
+  font-style: italic; 
+  margin-top: -1.3em;
+}
+
